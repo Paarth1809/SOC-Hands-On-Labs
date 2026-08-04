@@ -4,19 +4,19 @@
 
 ---
 
-## Objective
+# Objective
 
-Build the foundation of the Windows SOC Lab by creating and configuring a dedicated Windows 11 virtual machine that will be used for future security monitoring, log collection, and attack simulations.
-
----
-
-## Overview
-
-This session focused on setting up a clean Windows 11 endpoint inside VirtualBox. The virtual machine was configured with appropriate hardware resources, renamed for easier identification, and prepared with an administrator account. A clean snapshot was also created to provide a reliable restore point before installing security tools such as Sysmon and Splunk.
+Build the Windows SOC Lab from scratch and prepare a Windows 11 endpoint for future security monitoring, log collection, and attack simulations.
 
 ---
 
-## Lab Environment
+# Overview
+
+This session focused on creating the foundation of the Windows SOC Lab by deploying a dedicated Windows 11 virtual machine. The system was configured with the required hardware resources, prepared for future security tooling, and a clean baseline snapshot was created before installing any monitoring applications.
+
+---
+
+# Lab Environment
 
 | Component | Configuration |
 |------------|---------------|
@@ -30,110 +30,107 @@ This session focused on setting up a clean Windows 11 endpoint inside VirtualBox
 
 ---
 
-## Tasks Completed
+# Tasks Completed
 
-- Verified VirtualBox installation.
+- Verified Oracle VirtualBox installation.
 - Downloaded the Windows 11 ISO.
-- Created a new Windows 11 virtual machine.
+- Created the Windows 11 virtual machine.
 - Allocated 6144 MB RAM, 4 CPU cores, and an 80 GB virtual disk.
 - Installed Windows 11.
-- Renamed the system to **SOC-WIN11-01**.
+- Renamed the endpoint to **SOC-WIN11-01**.
 - Created the **SOCAdmin** local administrator account.
 - Installed VirtualBox Guest Additions.
 - Created the initial snapshot named **Clean Windows 11**.
 
 ---
 
-## Screenshots
+# Screenshots
 
-### Windows 11 Virtual Machine Configuration
+## Windows 11 Virtual Machine Configuration
 
-![Virtual Machine Configuration](screenshots/01-vm-configuration.png)
+> **Screenshot Placeholder**
 
-*Figure 1. Virtual machine hardware configuration in Oracle VirtualBox.*
+*Figure 1. Virtual machine configuration in Oracle VirtualBox.*
 
 ---
 
-### Windows 11 Installation Completed
+## Windows 11 Installation
 
-![Windows Installation](screenshots/02-windows-installation.png)
+> **Screenshot Placeholder**
 
 *Figure 2. Windows 11 installed successfully.*
 
 ---
 
-### Computer Name Changed
+## Renaming the Endpoint
 
-![Computer Name](screenshots/03-computer-name.png)
+> **Screenshot Placeholder**
 
-*Figure 3. Endpoint renamed to SOC-WIN11-01.*
+*Figure 3. Computer renamed to SOC-WIN11-01.*
 
 ---
 
-### Local Administrator Account
+## Local Administrator Account
 
-![Administrator Account](screenshots/04-socadmin.png)
+> **Screenshot Placeholder**
 
 *Figure 4. SOCAdmin local administrator account created.*
 
 ---
 
-### VirtualBox Guest Additions
+## VirtualBox Guest Additions
 
-![Guest Additions](screenshots/05-guest-additions.png)
+> **Screenshot Placeholder**
 
 *Figure 5. VirtualBox Guest Additions installed successfully.*
 
 ---
 
-### Initial Snapshot
+## Initial Snapshot
 
-![Snapshot](screenshots/06-clean-snapshot.png)
+> **Screenshot Placeholder**
 
 *Figure 6. Initial "Clean Windows 11" snapshot created.*
 
 ---
 
-## Why This Matters
+# Why This Matters
 
-A clean and well-documented baseline is essential for any SOC lab. It provides a known-good system state before security tools are installed or attack simulations are performed. Creating an initial snapshot also makes it easy to restore the environment if a future experiment causes unexpected issues.
-
----
-
-## Skills Practiced
-
-- Virtual machine deployment
-- Windows 11 installation
-- VirtualBox configuration
-- Windows endpoint preparation
-- Lab environment setup
-- Baseline creation
+A clean baseline is essential for every SOC lab. Establishing a known-good system before installing security tools helps distinguish normal system activity from malicious behavior during future investigations. Creating snapshots also allows the environment to be restored quickly before testing new attack scenarios.
 
 ---
 
-## Lessons Learned
+# Skills Practiced
 
-- A well-prepared environment makes future labs easier to manage.
-- Creating snapshots before major changes helps prevent data loss.
+- Windows 11 Deployment
+- Virtual Machine Management
+- Oracle VirtualBox Configuration
+- Windows Endpoint Preparation
+- Lab Planning
+- Baseline Creation
+
+---
+
+# Lessons Learned
+
+- A well-organized lab makes future investigations easier to perform.
+- Creating snapshots before major changes simplifies recovery.
 - Consistent endpoint naming improves organization and investigation.
-- Establishing a clean baseline is an important first step before collecting security telemetry.
+- Building a reliable environment is the first step toward effective SOC operations.
 
 ---
 
-## Session Outcome
+# Session Outcome
 
-✅ Windows 11 virtual machine deployed successfully.
+- Windows 11 virtual machine deployed successfully.
+- SOC endpoint configured.
+- Clean baseline established.
+- Initial recovery snapshot created.
 
-✅ Windows endpoint configured.
-
-✅ Initial administrator account created.
-
-✅ Clean baseline snapshot created.
-
-The environment is now ready for the installation of endpoint monitoring and logging tools.
+The environment is now ready for endpoint monitoring and security tooling.
 
 ---
 
-## Next Session
+# Next Session
 
-Deploy Sysmon using the SwiftOnSecurity configuration, verify Windows Event Viewer logs, and prepare the endpoint for SIEM log collection.
+Deploy Sysmon, apply a recommended configuration, and verify endpoint telemetry using Windows Event Viewer.
