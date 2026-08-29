@@ -1,4 +1,7 @@
 # Table of contents
 
-* [SOC Hands-On Labs](README.md)
-* [linuxfundamentalspart1](linuxfundamentalspart1.md)
+* [Writeup](README.md)
+
+## Home-Lab
+
+* [Log Analysis Basics](home-lab/log-analysis-basics.md)
