@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Writeup](README.md)
+* [Writeups](README.md)
 
 ## Home-Lab
 
