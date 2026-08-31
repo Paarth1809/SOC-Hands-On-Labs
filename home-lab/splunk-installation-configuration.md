@@ -1,4 +1,4 @@
-# Splunk installation
+# Splunk installation/ Configuration
 
 ## Project Overview
 
@@ -32,11 +32,11 @@ The goal was to collect Windows logs from a client machine and forward them to a
 
 Splunk Enterprise was installed on the Windows system. After the installation completed, the Splunk web interface was launched successfully.
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>Figure 1: Installation of Splunk enterprise</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Figure 1: Installation of Splunk enterprise</p></figcaption></figure>
 
 
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>Figure 2: splunk Installed</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Figure 2: splunk Installed</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -44,7 +44,7 @@ Splunk Enterprise was installed on the Windows system. After the installation co
 
 The Splunk Universal Forwarder was installed on the client machine. During installation, the management server details were provided to enable communication with the Splunk instance.
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption><p>Figure 3: Installation of Universal forwarder</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Figure 3: Installation of Universal forwarder</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -52,7 +52,7 @@ The Splunk Universal Forwarder was installed on the client machine. During insta
 
 The receiving port was configured on Splunk Enterprise to allow incoming connections from forwarders.
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption><p>Figure 4: Configuring the receiving port</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Figure 4: Configuring the receiving port</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -60,7 +60,7 @@ The receiving port was configured on Splunk Enterprise to allow incoming connect
 
 After configuration, the Universal Forwarder successfully appeared in the Splunk Forwarder Management page, confirming communication between the endpoint and the server.
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption><p>Figure 5: Agent connected with splunk</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Figure 5: Agent connected with splunk</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -68,9 +68,9 @@ After configuration, the Universal Forwarder successfully appeared in the Splunk
 
 Using the Add Data wizard, the connected forwarder was selected as the source for collecting Windows log data.
 
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption><p>Figure 6: Importing logs using forwarder</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Figure 6: Importing logs using forwarder</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption><p>Figure 7: select Forwarder</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Figure 7: select Forwarder</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -78,9 +78,9 @@ Using the Add Data wizard, the connected forwarder was selected as the source fo
 
 The input type, source type, and destination index were configured before starting log collection.
 
-<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption><p>Figure 8: Selecting the type of Data to import</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figure 8: Selecting the type of Data to import</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption><p>Figure 9: Defining Source type and index</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Figure 9: Defining Source type and index</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -88,7 +88,7 @@ The input type, source type, and destination index were configured before starti
 
 All settings were reviewed before submitting the configuration to begin indexing logs.
 
-<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption><p>Figure 10: Review and Submit</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Figure 10: Review and Submit</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
