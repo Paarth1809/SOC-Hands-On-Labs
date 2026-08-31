@@ -10,5 +10,4 @@
 
 ***
 
-* [Report](report.md)
-* [Report](report-1.md)
+* [Splunk installation](splunk-installation.md)

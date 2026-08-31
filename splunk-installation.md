@@ -1,6 +1,4 @@
-# Report
-
-**Date:** August 04, 2026
+# Splunk installation
 
 ## Project Overview
 
@@ -34,9 +32,11 @@ The goal was to collect Windows logs from a client machine and forward them to a
 
 Splunk Enterprise was installed on the Windows system. After the installation completed, the Splunk web interface was launched successfully.
 
-Figure 1: Installation of Splunk enterprise
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>Figure 1: Installation of Splunk enterprise</p></figcaption></figure>
 
-Figure 2: splunk Installed
+
+
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>Figure 2: splunk Installed</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -44,7 +44,7 @@ Figure 2: splunk Installed
 
 The Splunk Universal Forwarder was installed on the client machine. During installation, the management server details were provided to enable communication with the Splunk instance.
 
-Figure 3: Installation of Universal forwarder
+<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption><p>Figure 3: Installation of Universal forwarder</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -52,7 +52,7 @@ Figure 3: Installation of Universal forwarder
 
 The receiving port was configured on Splunk Enterprise to allow incoming connections from forwarders.
 
-Figure 4: Configuring the receiving port
+<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption><p>Figure 4: Configuring the receiving port</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -60,7 +60,7 @@ Figure 4: Configuring the receiving port
 
 After configuration, the Universal Forwarder successfully appeared in the Splunk Forwarder Management page, confirming communication between the endpoint and the server.
 
-Figure 5: Agent connected with splunk
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption><p>Figure 5: Agent connected with splunk</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -68,9 +68,9 @@ Figure 5: Agent connected with splunk
 
 Using the Add Data wizard, the connected forwarder was selected as the source for collecting Windows log data.
 
-Figure 6: Importing logs using forwarder
+<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption><p>Figure 6: Importing logs using forwarder</p></figcaption></figure>
 
-Figure 7: select Forwarder
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption><p>Figure 7: select Forwarder</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -78,9 +78,9 @@ Figure 7: select Forwarder
 
 The input type, source type, and destination index were configured before starting log collection.
 
-Figure 8: Selecting the type of Data to import
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption><p>Figure 8: Selecting the type of Data to import</p></figcaption></figure>
 
-Figure 9: Defining Source type and index
+<figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption><p>Figure 9: Defining Source type and index</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -88,7 +88,7 @@ Figure 9: Defining Source type and index
 
 All settings were reviewed before submitting the configuration to begin indexing logs.
 
-Figure 10: Review and Submit
+<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption><p>Figure 10: Review and Submit</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
