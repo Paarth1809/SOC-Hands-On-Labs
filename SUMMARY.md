@@ -5,3 +5,4 @@
 ## Home-Lab
 
 * [Log Analysis Basics](home-lab/log-analysis-basics.md)
+* [Incidence Response](home-lab/incidence-response.md)
