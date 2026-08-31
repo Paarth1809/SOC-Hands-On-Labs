@@ -1,24 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
-  actions:
-    visible: true
----
-
 # Windows Attack Simulation and Event Investigation
 
 #### Project Overview <a href="#r25p" id="r25p"></a>
