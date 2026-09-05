@@ -2,11 +2,18 @@
 description: >-
   The SOC received an alert in their SIEM for ‘Local to Local Port Scanning’
   where an internal private IP began scanning another internal system.
+tags:
+  - wireshark
+  - pcap
 ---
 
 # Network Analysis - Web Shell
 
 {% embed url="https://blueteamlabs.online/home/challenge/network-analysis-web-shell-d4d3a2821b" %}
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><p></p><ul><li><strong>Blue Team Online Lab</strong></li><li></li></ul></td><td>Network Analysis - Web Shell</td><td><a href="https://blueteamlabs.online/home/challenge/network-analysis-web-shell-d4d3a2821b">https://blueteamlabs.online/home/challenge/network-analysis-web-shell-d4d3a2821b</a></td></tr></tbody></table>
+
+***
 
 ### Scenario
 
