@@ -11,8 +11,6 @@ tags:
 
 {% embed url="https://blueteamlabs.online/home/challenge/network-analysis-web-shell-d4d3a2821b" %}
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><p></p><ul><li><strong>Blue Team Online Lab</strong></li><li></li></ul></td><td>Network Analysis - Web Shell</td><td><a href="https://blueteamlabs.online/home/challenge/network-analysis-web-shell-d4d3a2821b">https://blueteamlabs.online/home/challenge/network-analysis-web-shell-d4d3a2821b</a></td></tr></tbody></table>
-
 ***
 
 ### Scenario
