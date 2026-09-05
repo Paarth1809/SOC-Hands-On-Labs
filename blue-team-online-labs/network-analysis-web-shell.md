@@ -6,20 +6,22 @@ description: >-
 
 # Network Analysis - Web Shell
 
-### [https://blueteamlabs.online/home/challenge/network-analysis-web-shell-d4d3a2821b](https://blueteamlabs.online/home/challenge/network-analysis-web-shell-d4d3a2821b)
+{% embed url="https://blueteamlabs.online/home/challenge/network-analysis-web-shell-d4d3a2821b" %}
 
 ### Scenario
 
 The SOC received an alert in their SIEM for ‘Local to Local Port Scanning’ where an internal private IP began scanning another internal system. Can you investigate and determine if this activity is malicious or not? You have been provided a PCAP, investigate using any tools you wish.
 
-### Difficulty = Easy
+### Difficulty
+
+* Easy
 
 ### Requirements
 
 * Winodws 10
 * Wireshark
 
-[DdMgCqiLCvTxMd6XYQgaXCyjDH8M6b.zip](attachment:0c23111f-b781-4040-a2ce-2ce1c0c79085:DdMgCqiLCvTxMd6XYQgaXCyjDH8M6b.zip)
+{% file src="../.gitbook/assets/DdMgCqiLCvTxMd6XYQgaXCyjDH8M6b.zip" %}
 
 I worked through the PCAP by checking the network protocols, TCP connections, HTTP requests, and\
 the commands sent through the web shell. The screenshots below show the main steps I used to\
