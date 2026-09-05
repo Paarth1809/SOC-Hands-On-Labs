@@ -2,6 +2,10 @@
 
 * [Writeups](README.md)
 
+## Blue Team Online Labs
+
+* [Network Analysis - Web Shell](blue-team-online-labs/network-analysis-web-shell.md)
+
 ## Home-Lab
 
 * [Log Analysis Basics](home-lab/log-analysis-basics.md)
