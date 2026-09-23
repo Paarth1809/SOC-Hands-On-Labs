@@ -5,3 +5,7 @@ Hi, I'm Parth Srivastava. I am a cybersecurity professional specializing in Blue
 {% embed url="https://tryhackme.com/p/parthsrivastavaa18" %}
 TryHackme Profile - parth07
 {% endembed %}
+
+{% embed url="https://blueteamlabs.online/public/user/f7ac9fb34266687d03dc48" %}
+Blue Team Lab Profile - Parth
+{% endembed %}
